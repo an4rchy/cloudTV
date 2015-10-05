@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5165E1BC05B500030113B /* AppDelegate.swift */; };
+		DCB516611BC05B500030113B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB516601BC05B500030113B /* ViewController.swift */; };
+		DCB516641BC05B500030113B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB516621BC05B500030113B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		DCB516661BC05B500030113B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB516651BC05B500030113B /* Assets.xcassets */; };
+		DCB516691BC05B500030113B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB516671BC05B500030113B /* LaunchScreen.storyboard */; };
+		DCB516741BC05B500030113B /* cloudTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB516731BC05B500030113B /* cloudTVTests.swift */; };
+		DCB5167F1BC05B500030113B /* cloudTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5167E1BC05B500030113B /* cloudTVUITests.swift */; };
+		DCB5168D1BC05C540030113B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5168C1BC05C540030113B /* Tab.swift */; settings = {ASSET_TAGS = (); }; };
+		DCB5168F1BC05ECC0030113B /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5168E1BC05ECC0030113B /* Banner.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB516701BC05B500030113B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB516531BC05B500030113B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5165A1BC05B500030113B;
+			remoteInfo = cloudTV;
+		};
+		DCB5167B1BC05B500030113B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB516531BC05B500030113B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5165A1BC05B500030113B;
+			remoteInfo = cloudTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB5165B1BC05B500030113B /* cloudTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5165E1BC05B500030113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB516601BC05B500030113B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB516631BC05B500030113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB516651BC05B500030113B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB516681BC05B500030113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB5166A1BC05B500030113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5166F1BC05B500030113B /* cloudTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB516731BC05B500030113B /* cloudTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudTVTests.swift; sourceTree = "<group>"; };
+		DCB516751BC05B500030113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5167A1BC05B500030113B /* cloudTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5167E1BC05B500030113B /* cloudTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudTVUITests.swift; sourceTree = "<group>"; };
+		DCB516801BC05B500030113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5168C1BC05C540030113B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		DCB5168E1BC05ECC0030113B /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB516581BC05B500030113B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5166C1BC05B500030113B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB516771BC05B500030113B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB516521BC05B500030113B = {
+			isa = PBXGroup;
+			children = (
+				DCB5165D1BC05B500030113B /* cloudTV */,
+				DCB516721BC05B500030113B /* cloudTVTests */,
+				DCB5167D1BC05B500030113B /* cloudTVUITests */,
+				DCB5165C1BC05B500030113B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB5165C1BC05B500030113B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5165B1BC05B500030113B /* cloudTV.app */,
+				DCB5166F1BC05B500030113B /* cloudTVTests.xctest */,
+				DCB5167A1BC05B500030113B /* cloudTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB5165D1BC05B500030113B /* cloudTV */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5165E1BC05B500030113B /* AppDelegate.swift */,
+				DCB516601BC05B500030113B /* ViewController.swift */,
+				DCB516621BC05B500030113B /* Main.storyboard */,
+				DCB5168C1BC05C540030113B /* Tab.swift */,
+				DCB5168E1BC05ECC0030113B /* Banner.swift */,
+				DCB516651BC05B500030113B /* Assets.xcassets */,
+				DCB516671BC05B500030113B /* LaunchScreen.storyboard */,
+				DCB5166A1BC05B500030113B /* Info.plist */,
+			);
+			path = cloudTV;
+			sourceTree = "<group>";
+		};
+		DCB516721BC05B500030113B /* cloudTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB516731BC05B500030113B /* cloudTVTests.swift */,
+				DCB516751BC05B500030113B /* Info.plist */,
+			);
+			path = cloudTVTests;
+			sourceTree = "<group>";
+		};
+		DCB5167D1BC05B500030113B /* cloudTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5167E1BC05B500030113B /* cloudTVUITests.swift */,
+				DCB516801BC05B500030113B /* Info.plist */,
+			);
+			path = cloudTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB5165A1BC05B500030113B /* cloudTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB516831BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTV" */;
+			buildPhases = (
+				DCB516571BC05B500030113B /* Sources */,
+				DCB516581BC05B500030113B /* Frameworks */,
+				DCB516591BC05B500030113B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloudTV;
+			productName = cloudTV;
+			productReference = DCB5165B1BC05B500030113B /* cloudTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB5166E1BC05B500030113B /* cloudTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB516861BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTVTests" */;
+			buildPhases = (
+				DCB5166B1BC05B500030113B /* Sources */,
+				DCB5166C1BC05B500030113B /* Frameworks */,
+				DCB5166D1BC05B500030113B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB516711BC05B500030113B /* PBXTargetDependency */,
+			);
+			name = cloudTVTests;
+			productName = cloudTVTests;
+			productReference = DCB5166F1BC05B500030113B /* cloudTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCB516791BC05B500030113B /* cloudTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB516891BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTVUITests" */;
+			buildPhases = (
+				DCB516761BC05B500030113B /* Sources */,
+				DCB516771BC05B500030113B /* Frameworks */,
+				DCB516781BC05B500030113B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5167C1BC05B500030113B /* PBXTargetDependency */,
+			);
+			name = cloudTVUITests;
+			productName = cloudTVUITests;
+			productReference = DCB5167A1BC05B500030113B /* cloudTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB516531BC05B500030113B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					top,
+				);
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjun Penemetsa";
+				TargetAttributes = {
+					DCB5165A1BC05B500030113B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4982N943CR;
+					};
+					DCB5166E1BC05B500030113B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4982N943CR;
+						TestTargetID = DCB5165A1BC05B500030113B;
+					};
+					DCB516791BC05B500030113B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4982N943CR;
+						TestTargetID = DCB5165A1BC05B500030113B;
+					};
+				};
+			};
+			buildConfigurationList = DCB516561BC05B500030113B /* Build configuration list for PBXProject "cloudTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB516521BC05B500030113B;
+			productRefGroup = DCB5165C1BC05B500030113B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB5165A1BC05B500030113B /* cloudTV */,
+				DCB5166E1BC05B500030113B /* cloudTVTests */,
+				DCB516791BC05B500030113B /* cloudTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB516591BC05B500030113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB516691BC05B500030113B /* LaunchScreen.storyboard in Resources */,
+				DCB516661BC05B500030113B /* Assets.xcassets in Resources */,
+				DCB516641BC05B500030113B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5166D1BC05B500030113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB516781BC05B500030113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB516571BC05B500030113B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5168D1BC05C540030113B /* Tab.swift in Sources */,
+				DCB5168F1BC05ECC0030113B /* Banner.swift in Sources */,
+				DCB516611BC05B500030113B /* ViewController.swift in Sources */,
+				DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5166B1BC05B500030113B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB516741BC05B500030113B /* cloudTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB516761BC05B500030113B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5167F1BC05B500030113B /* cloudTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB516711BC05B500030113B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5165A1BC05B500030113B /* cloudTV */;
+			targetProxy = DCB516701BC05B500030113B /* PBXContainerItemProxy */;
+		};
+		DCB5167C1BC05B500030113B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5165A1BC05B500030113B /* cloudTV */;
+			targetProxy = DCB5167B1BC05B500030113B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB516621BC05B500030113B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB516631BC05B500030113B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB516671BC05B500030113B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB516681BC05B500030113B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB516811BC05B500030113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB516821BC05B500030113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB516841BC05B500030113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cloudTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCB516851BC05B500030113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cloudTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCB516871BC05B500030113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cloudTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudTV.app/cloudTV";
+			};
+			name = Debug;
+		};
+		DCB516881BC05B500030113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cloudTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudTV.app/cloudTV";
+			};
+			name = Release;
+		};
+		DCB5168A1BC05B500030113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cloudTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cloudTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCB5168B1BC05B500030113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cloudTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cloudTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB516561BC05B500030113B /* Build configuration list for PBXProject "cloudTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB516811BC05B500030113B /* Debug */,
+				DCB516821BC05B500030113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB516831BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB516841BC05B500030113B /* Debug */,
+				DCB516851BC05B500030113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB516861BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB516871BC05B500030113B /* Debug */,
+				DCB516881BC05B500030113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB516891BC05B500030113B /* Build configuration list for PBXNativeTarget "cloudTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5168A1BC05B500030113B /* Debug */,
+				DCB5168B1BC05B500030113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB516531BC05B500030113B /* Project object */;
+}
