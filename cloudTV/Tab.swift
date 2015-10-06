@@ -58,6 +58,24 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
         
     }
     
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        print(indexPath)
+        
+        var videoID: String = "NGY6DqB1HX8"
+        performSegueWithIdentifier("DescriptionSegue", sender: videoID)
+    
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DescriptionSegue" {
+            
+            let destinationVC = segue.destinationViewController as! DescriptionVC
+            destinationVC.videoID = sender as! String
+            
+        }
+    }
+    
     
   
     

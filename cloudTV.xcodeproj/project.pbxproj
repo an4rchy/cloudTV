@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC6F754C1BC341FE002C67C2 /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */; };
+		DC6F754F1BC343EC002C67C2 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */; settings = {ASSET_TAGS = (); }; };
 		DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5165E1BC05B500030113B /* AppDelegate.swift */; };
 		DCB516611BC05B500030113B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB516601BC05B500030113B /* ViewController.swift */; };
 		DCB516641BC05B500030113B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB516621BC05B500030113B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = Carthage/Build/iOS/YouTubePlayer.framework; sourceTree = "<group>"; };
+		DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
 		DCB5165B1BC05B500030113B /* cloudTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB5165E1BC05B500030113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB516601BC05B500030113B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F754C1BC341FE002C67C2 /* YouTubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		DCB516521BC05B500030113B = {
 			isa = PBXGroup;
 			children = (
+				DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */,
 				DCB5165D1BC05B500030113B /* cloudTV */,
 				DCB516721BC05B500030113B /* cloudTVTests */,
 				DCB5167D1BC05B500030113B /* cloudTVUITests */,
@@ -104,6 +110,7 @@
 				DCB5165E1BC05B500030113B /* AppDelegate.swift */,
 				DCB516601BC05B500030113B /* ViewController.swift */,
 				DCB516621BC05B500030113B /* Main.storyboard */,
+				DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */,
 				DCB5168C1BC05C540030113B /* Tab.swift */,
 				DCB5168E1BC05ECC0030113B /* Banner.swift */,
 				DCB516651BC05B500030113B /* Assets.xcassets */,
@@ -141,6 +148,7 @@
 				DCB516571BC05B500030113B /* Sources */,
 				DCB516581BC05B500030113B /* Frameworks */,
 				DCB516591BC05B500030113B /* Resources */,
+				DC6F754D1BC34222002C67C2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -262,6 +270,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC6F754D1BC34222002C67C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/YouTubePlayer.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCB516571BC05B500030113B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +296,7 @@
 				DCB5168F1BC05ECC0030113B /* Banner.swift in Sources */,
 				DCB516611BC05B500030113B /* ViewController.swift in Sources */,
 				DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */,
+				DC6F754F1BC343EC002C67C2 /* DescriptionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTV;
@@ -423,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arjun.cloudTV;
