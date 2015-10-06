@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4C87331BC34DBC00585B2F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87311BC34DBC00585B2F /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		DC4C87341BC34DBC00585B2F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87321BC34DBC00585B2F /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		DC4C87361BC34DF800585B2F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87351BC34DF800585B2F /* AudioToolbox.framework */; };
+		DC4C87381BC34DFF00585B2F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87371BC34DFF00585B2F /* CFNetwork.framework */; };
+		DC4C873A1BC34E0600585B2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87391BC34E0600585B2F /* CoreGraphics.framework */; };
+		DC4C873C1BC34E0E00585B2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C873B1BC34E0E00585B2F /* CoreLocation.framework */; };
+		DC4C873E1BC34E1300585B2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C873D1BC34E1300585B2F /* QuartzCore.framework */; };
+		DC4C87401BC34E1A00585B2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C873F1BC34E1A00585B2F /* Security.framework */; };
+		DC4C87421BC34E1F00585B2F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87411BC34E1F00585B2F /* StoreKit.framework */; };
+		DC4C87441BC34E2800585B2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87431BC34E2800585B2F /* SystemConfiguration.framework */; };
+		DC4C87461BC34E3100585B2F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87451BC34E3100585B2F /* libsqlite3.tbd */; };
+		DC4C87481BC34E3800585B2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C87471BC34E3800585B2F /* libz.tbd */; };
 		DC6F754C1BC341FE002C67C2 /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */; };
 		DC6F754F1BC343EC002C67C2 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */; settings = {ASSET_TAGS = (); }; };
 		DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5165E1BC05B500030113B /* AppDelegate.swift */; };
@@ -38,7 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = Carthage/Build/iOS/YouTubePlayer.framework; sourceTree = "<group>"; };
+		DC4C87311BC34DBC00585B2F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = SOURCE_ROOT; };
+		DC4C87321BC34DBC00585B2F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		DC4C87351BC34DF800585B2F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC4C87371BC34DFF00585B2F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DC4C87391BC34E0600585B2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC4C873B1BC34E0E00585B2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC4C873D1BC34E1300585B2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC4C873F1BC34E1A00585B2F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DC4C87411BC34E1F00585B2F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DC4C87431BC34E2800585B2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DC4C87451BC34E3100585B2F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DC4C87471BC34E3800585B2F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = ../Carthage/Build/iOS/YouTubePlayer.framework; sourceTree = "<group>"; };
 		DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
 		DCB5165B1BC05B500030113B /* cloudTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB5165E1BC05B500030113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +86,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4C87481BC34E3800585B2F /* libz.tbd in Frameworks */,
+				DC4C87461BC34E3100585B2F /* libsqlite3.tbd in Frameworks */,
+				DC4C87441BC34E2800585B2F /* SystemConfiguration.framework in Frameworks */,
+				DC4C87421BC34E1F00585B2F /* StoreKit.framework in Frameworks */,
+				DC4C87401BC34E1A00585B2F /* Security.framework in Frameworks */,
+				DC4C873E1BC34E1300585B2F /* QuartzCore.framework in Frameworks */,
+				DC4C873C1BC34E0E00585B2F /* CoreLocation.framework in Frameworks */,
+				DC4C873A1BC34E0600585B2F /* CoreGraphics.framework in Frameworks */,
+				DC4C87381BC34DFF00585B2F /* CFNetwork.framework in Frameworks */,
+				DC4C87361BC34DF800585B2F /* AudioToolbox.framework in Frameworks */,
 				DC6F754C1BC341FE002C67C2 /* YouTubePlayer.framework in Frameworks */,
+				DC4C87341BC34DBC00585B2F /* Parse.framework in Frameworks */,
+				DC4C87331BC34DBC00585B2F /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +119,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC4C87491BC34E5000585B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C87471BC34E3800585B2F /* libz.tbd */,
+				DC4C87451BC34E3100585B2F /* libsqlite3.tbd */,
+				DC4C87431BC34E2800585B2F /* SystemConfiguration.framework */,
+				DC4C87411BC34E1F00585B2F /* StoreKit.framework */,
+				DC4C873F1BC34E1A00585B2F /* Security.framework */,
+				DC4C873D1BC34E1300585B2F /* QuartzCore.framework */,
+				DC4C873B1BC34E0E00585B2F /* CoreLocation.framework */,
+				DC4C87391BC34E0600585B2F /* CoreGraphics.framework */,
+				DC4C87371BC34DFF00585B2F /* CFNetwork.framework */,
+				DC4C87351BC34DF800585B2F /* AudioToolbox.framework */,
+				DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */,
+				DC4C87311BC34DBC00585B2F /* Bolts.framework */,
+				DC4C87321BC34DBC00585B2F /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCB516521BC05B500030113B = {
 			isa = PBXGroup;
 			children = (
-				DC6F754B1BC341FE002C67C2 /* YouTubePlayer.framework */,
 				DCB5165D1BC05B500030113B /* cloudTV */,
 				DCB516721BC05B500030113B /* cloudTVTests */,
 				DCB5167D1BC05B500030113B /* cloudTVUITests */,
@@ -107,6 +162,7 @@
 		DCB5165D1BC05B500030113B /* cloudTV */ = {
 			isa = PBXGroup;
 			children = (
+				DC4C87491BC34E5000585B2F /* Frameworks */,
 				DCB5165E1BC05B500030113B /* AppDelegate.swift */,
 				DCB516601BC05B500030113B /* ViewController.swift */,
 				DCB516621BC05B500030113B /* Main.storyboard */,
@@ -441,6 +497,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,6 +513,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
