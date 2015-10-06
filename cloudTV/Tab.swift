@@ -17,6 +17,7 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
 
     }
     
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -61,7 +62,7 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         print(indexPath)
         
-        var videoID: String = "NGY6DqB1HX8"
+        var videoID: String = "TZUoD3y8j98"
         performSegueWithIdentifier("DescriptionSegue", sender: videoID)
     
     }

@@ -136,7 +136,7 @@
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4OU-mQ-vP9" firstAttribute="trailing" secondItem="bvS-WE-keG" secondAttribute="trailing" id="1e4-gE-2yy"/>
                             <constraint firstItem="4OU-mQ-vP9" firstAttribute="top" secondItem="kWO-3L-cwO" secondAttribute="bottom" id="BM3-Kl-0wm"/>
@@ -183,6 +183,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BdV-fI-q16" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -192,6 +193,7 @@
         <scene sceneID="qi4-1n-n6v">
             <objects>
                 <tabBarController id="g5s-Ah-xRk" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="JD6-zu-K5M">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -230,6 +232,6 @@
     </scenes>
     <resources>
         <image name="r1" width="600" height="100"/>
-        <image name="r4" width="600" height="100"/>
+        <image name="r4" width="954" height="1349"/>
     </resources>
 </document>
