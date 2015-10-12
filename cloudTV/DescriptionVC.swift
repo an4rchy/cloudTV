@@ -10,6 +10,7 @@
 import UIKit
 import YouTubePlayer
 import Parse
+import Alamofire
 
 class DescriptionVC : UIViewController, YouTubePlayerDelegate {
     
@@ -40,7 +41,7 @@ class DescriptionVC : UIViewController, YouTubePlayerDelegate {
         videoPlayer = view.viewWithTag(3) as? YouTubePlayerView
         videoPlayer!.delegate = self
         videoPlayer!.loadVideoID(videoID)
-
+      Alamofire.request(.GET, "http://www.yahoo.com")
         let query = PFQuery(className: "data")
         query.findObjectsInBackgroundWithBlock {
             (objects: [PFObject]?, error: NSError?) -> Void in
