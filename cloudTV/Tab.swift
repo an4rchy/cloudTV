@@ -8,12 +8,14 @@
 
 import Foundation
 import UIKit
+import Parse
 
 class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     var collectionCellReuseIdentifier: String = "collectionCell"
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
     }
     
@@ -60,9 +62,8 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print(indexPath)
         
-        var videoID: String = "TZUoD3y8j98"
+        var videoID: String = "3jAlg5BnYUU"
         performSegueWithIdentifier("DescriptionSegue", sender: videoID)
     
     }

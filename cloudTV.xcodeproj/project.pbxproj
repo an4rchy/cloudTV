@@ -33,7 +33,6 @@
 		DCB516741BC05B500030113B /* cloudTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB516731BC05B500030113B /* cloudTVTests.swift */; };
 		DCB5167F1BC05B500030113B /* cloudTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5167E1BC05B500030113B /* cloudTVUITests.swift */; };
 		DCB5168D1BC05C540030113B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5168C1BC05C540030113B /* Tab.swift */; settings = {ASSET_TAGS = (); }; };
-		DCB5168F1BC05ECC0030113B /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5168E1BC05ECC0030113B /* Banner.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +98,6 @@
 		DCB5167E1BC05B500030113B /* cloudTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudTVUITests.swift; sourceTree = "<group>"; };
 		DCB516801BC05B500030113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCB5168C1BC05C540030113B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
-		DCB5168E1BC05ECC0030113B /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +191,6 @@
 				DCB516621BC05B500030113B /* Main.storyboard */,
 				DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */,
 				DCB5168C1BC05C540030113B /* Tab.swift */,
-				DCB5168E1BC05ECC0030113B /* Banner.swift */,
 				DCB516651BC05B500030113B /* Assets.xcassets */,
 				DCB516671BC05B500030113B /* LaunchScreen.storyboard */,
 				DCB5166A1BC05B500030113B /* Info.plist */,
@@ -390,7 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB5168D1BC05C540030113B /* Tab.swift in Sources */,
-				DCB5168F1BC05ECC0030113B /* Banner.swift in Sources */,
 				DCB516611BC05B500030113B /* ViewController.swift in Sources */,
 				DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */,
 				DC6F754F1BC343EC002C67C2 /* DescriptionVC.swift in Sources */,

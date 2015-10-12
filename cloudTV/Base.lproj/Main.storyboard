@@ -179,6 +179,10 @@
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5W-du-Rqn">
+                                <rect key="frame" x="166" y="204" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -232,6 +236,6 @@
     </scenes>
     <resources>
         <image name="r1" width="600" height="100"/>
-        <image name="r4" width="954" height="1349"/>
+        <image name="r4" width="99" height="99"/>
     </resources>
 </document>
