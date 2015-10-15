@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7919F61F1BCC3F6E0069F835 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7919F61D1BCC3F6D0069F835 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
+		7919F6201BCC3F6E0069F835 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */; settings = {ASSET_TAGS = (); }; };
 		DC1A3C761BC89A3400335C53 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; };
 		DC1A3C771BC89A3400335C53 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC1A3C781BC89A3400335C53 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C751BC89A3400335C53 /* RealmSwift.framework */; };
@@ -68,6 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7919F61D1BCC3F6D0069F835 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		DC1A3C741BC89A3400335C53 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
 		DC1A3C751BC89A3400335C53 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
 		DC4C87311BC34DBC00585B2F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = SOURCE_ROOT; };
@@ -120,6 +124,7 @@
 				DC6F754C1BC341FE002C67C2 /* YouTubePlayer.framework in Frameworks */,
 				DC4C87341BC34DBC00585B2F /* Parse.framework in Frameworks */,
 				DC4C87331BC34DBC00585B2F /* Bolts.framework in Frameworks */,
+				7919F61F1BCC3F6E0069F835 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +148,8 @@
 		DC4C87491BC34E5000585B2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7919F61D1BCC3F6D0069F835 /* Alamofire.framework */,
+				7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */,
 				DC1A3C741BC89A3400335C53 /* Realm.framework */,
 				DC1A3C751BC89A3400335C53 /* RealmSwift.framework */,
 				DC4C87471BC34E3800585B2F /* libz.tbd */,
@@ -331,6 +338,7 @@
 				DCB516691BC05B500030113B /* LaunchScreen.storyboard in Resources */,
 				DCB516661BC05B500030113B /* Assets.xcassets in Resources */,
 				DCB516641BC05B500030113B /* Main.storyboard in Resources */,
+				7919F6201BCC3F6E0069F835 /* Alamofire.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +543,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/cloudTV",
 				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -551,6 +560,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/cloudTV",
 				);
 				INFOPLIST_FILE = cloudTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
