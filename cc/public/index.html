@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="//www.parsecdn.com/js/parse-1.6.5.min.js"></script>
+
+</head>
+<body>
+<div id="asdf"></div>
+<input type="text" name="url"></input>
+	<script>
+
+Parse.initialize("i4JUJZMzsqtCCytBhbv5Vj97vH8bCAC56wT3Wv2j", "rK4fK92ZQ0MWMkBsXzgG7GZP2OW86k6U3ddjkT38");
+// 	var datum;
+// 		console.log('hello world')
+// 		$("div#asdf").append("<p>As</p>")
+// 		$.get( "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=n6op2UcrOFg&key=AIzaSyD3-c7c6n0TkmbNpDl1sVDMWb3Cbr1MSpw", function( data ) {
+//   $( "p" ).html( data );
+//   datum = data
+//   if (data.items.length == 1) {
+//   	var TestObject = Parse.Object.extend("data")
+//   	var testObject = new TestObject()
+//   	testObject.set("name", data.items[0]["snippet"]["title"])
+//   	testObject.set("desc", data.items[0]["snippet"]["description"])
+//   	testObject.set("cat",1)
+//   	testObject.set("url", "asdfasdf")
+//   	testObject.save(null, {
+//   		success: function(saved) {
+//   			console.log("success!" + saved.id)
+//   		},
+//   		error: function(saved, error) {
+//   			console.log("error")
+//   		}
+//   	})
+
+
+
+//   	// console.log("Yaya")
+
+//   	// console.log(data.items[0]["snippet"].description)
+//   }
+// });
+		// Parse.Cloud.run('hello', {"a":"yay"}, {
+		// 	success: function(result) {
+		// 		console.log(result)
+		// 	},
+		// 	error: function(error){
+		// 		console.log("error")
+		// 	}});
+    Parse.Cloud.run("youtube",{url: "JSweKPPVkTA"}, {
+      success: function(result) {
+      console.log("sucess")
+        console.log(result)
+      },
+      error: function(error){
+        console.log("This is the eror")
+        console.log(error)
+      }
+    })
+
+	</script>
+</body>
+</html>

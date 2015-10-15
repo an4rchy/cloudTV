@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "vdo"
+    },
+    "vdo": {
+      "applicationId": "i4JUJZMzsqtCCytBhbv5Vj97vH8bCAC56wT3Wv2j"
+    }
+  }
+}
