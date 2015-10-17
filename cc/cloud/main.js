@@ -18,6 +18,7 @@ Parse.Cloud.httpRequest({ url: url }).then(
 			tempObj.set("name", items[0]["snippet"]["title"])
   	tempObj.set("desc", items[0]["snippet"]["description"])
   	tempObj.set("cat",1)
+  	tempObj.set("imgUrl",items[0]["snippet"]["thumbnails"]["default"]["url"])
   	tempObj.set("url", items[0]["id"])
   	tempObj.save(null, {
   		success: function(saved) {
