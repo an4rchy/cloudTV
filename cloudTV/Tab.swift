@@ -16,6 +16,8 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+
 
     }
     
@@ -24,12 +26,17 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
         super.didReceiveMemoryWarning()
     }
     
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+        let edgeInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        print("******************* \(collectionView.tag)")
+        return edgeInset
+    }
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-
-
+        
         if collectionView.tag == 1 {
-            return CGSizeMake(view.frame.size.width, collectionView.frame.size.height + 56)
-            
+            print(collectionView.contentInset)
+            return CGSizeMake(collectionView.frame.size.width, collectionView.frame.size.height)
+
         }
         return CGSizeMake(100,150)
     }
@@ -62,8 +69,9 @@ class Tab: UIViewController, UICollectionViewDataSource, UICollectionViewDelegat
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
-        var videoID: String = "3jAlg5BnYUU"
+        print(collectionView.contentInset)
+        print(collectionView.frame.size)
+        let videoID: String = "3jAlg5BnYUU"
         performSegueWithIdentifier("DescriptionSegue", sender: videoID)
     
     }

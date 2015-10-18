@@ -50,22 +50,23 @@ class DescriptionVC : UIViewController, YouTubePlayerDelegate {
 
                 if let objects = objects as? [PFObject]! {
                     for object in objects {
-                        print(object.objectId)
-                        print(object["name"])
-                        print(object["img"])
-                        let img = object["img"] as! PFFile
-                        img.getDataInBackgroundWithBlock {
-                            (imageData: NSData?, error: NSError? ) -> Void in
-                            if error == nil {
-                                if let imgD = imageData {
-                                    let imge = UIImage(data: imgD)
-                                    let temp: UIImageView = self.view.viewWithTag(5) as! UIImageView
-                                    temp.image = imge
-                                    
-                                    
-                                }
-                            }
-                        }
+                        print(objects.count)
+//                        print(object.objectId)
+//                        print(object["name"])
+//                        print(object["img"])
+//                        let img = object["img"] as! PFFile
+//                        img.getDataInBackgroundWithBlock {
+//                            (imageData: NSData?, error: NSError? ) -> Void in
+//                            if error == nil {
+//                                if let imgD = imageData {
+//                                    let imge = UIImage(data: imgD)
+//                                    let temp: UIImageView = self.view.viewWithTag(5) as! UIImageView
+//                                    temp.image = imge
+//                                    
+//                                    
+//                                }
+//                            }
+//                        }
                     }
                 }
                 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7919F61F1BCC3F6E0069F835 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7919F61D1BCC3F6D0069F835 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
 		7919F6201BCC3F6E0069F835 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */; settings = {ASSET_TAGS = (); }; };
+		DC17F8DA1BD31B560017E77C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7919F61D1BCC3F6D0069F835 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC1A3C761BC89A3400335C53 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; };
 		DC1A3C771BC89A3400335C53 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC1A3C781BC89A3400335C53 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C751BC89A3400335C53 /* RealmSwift.framework */; };
@@ -61,6 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DC17F8DA1BD31B560017E77C /* Alamofire.framework in Embed Frameworks */,
 				DC1A3C791BC89A3400335C53 /* RealmSwift.framework in Embed Frameworks */,
 				DC1A3C771BC89A3400335C53 /* Realm.framework in Embed Frameworks */,
 			);
