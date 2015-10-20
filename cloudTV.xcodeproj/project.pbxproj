@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7919F61F1BCC3F6E0069F835 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7919F61D1BCC3F6D0069F835 /* Alamofire.framework */; settings = {ASSET_TAGS = (); }; };
 		7919F6201BCC3F6E0069F835 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */; settings = {ASSET_TAGS = (); }; };
+		79F30B321BD6BF4E004ACB54 /* ReamlModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F30B311BD6BF4E004ACB54 /* ReamlModels.swift */; settings = {ASSET_TAGS = (); }; };
 		DC17F8DA1BD31B560017E77C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7919F61D1BCC3F6D0069F835 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC1A3C761BC89A3400335C53 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; };
 		DC1A3C771BC89A3400335C53 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A3C741BC89A3400335C53 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -74,6 +75,7 @@
 /* Begin PBXFileReference section */
 		7919F61D1BCC3F6D0069F835 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		7919F61E1BCC3F6D0069F835 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		79F30B311BD6BF4E004ACB54 /* ReamlModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReamlModels.swift; sourceTree = "<group>"; };
 		DC1A3C741BC89A3400335C53 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
 		DC1A3C751BC89A3400335C53 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
 		DC4C87311BC34DBC00585B2F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = SOURCE_ROOT; };
@@ -196,6 +198,7 @@
 			children = (
 				DC4C87491BC34E5000585B2F /* Frameworks */,
 				DCB5165E1BC05B500030113B /* AppDelegate.swift */,
+				79F30B311BD6BF4E004ACB54 /* ReamlModels.swift */,
 				DCB516601BC05B500030113B /* ViewController.swift */,
 				DCB516621BC05B500030113B /* Main.storyboard */,
 				DC6F754E1BC343EC002C67C2 /* DescriptionVC.swift */,
@@ -398,6 +401,7 @@
 			files = (
 				DCB5168D1BC05C540030113B /* Tab.swift in Sources */,
 				DCB516611BC05B500030113B /* ViewController.swift in Sources */,
+				79F30B321BD6BF4E004ACB54 /* ReamlModels.swift in Sources */,
 				DCB5165F1BC05B500030113B /* AppDelegate.swift in Sources */,
 				DC6F754F1BC343EC002C67C2 /* DescriptionVC.swift in Sources */,
 			);
